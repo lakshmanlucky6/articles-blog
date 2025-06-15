@@ -1,0 +1,1 @@
+openssl dgst -sha512 -sign rsa_private_key.pem -out signature.bin data.txt
